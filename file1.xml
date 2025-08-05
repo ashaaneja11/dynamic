@@ -1,2 +1,7 @@
+import sailpoint.tools.Util;
+
 String val = form.getStringField("businessProcess");
 return !(Util.isNotNullOrEmpty(val) && "Compromised Account".equalsIgnoreCase(val));
+
+
+
