@@ -1,1 +1,2 @@
-<entry key="value" value="&lt;b&gt;Note:&lt;/b&gt; The option &lt;b&gt;Compromised Account&lt;/b&gt; will &lt;b&gt;reset&lt;/b&gt; the user's AD password and &lt;b&gt;revoke&lt;/b&gt; the user's Azure session." />
+String val = form.getStringField("businessProcess");
+return !(Util.isNotNullOrEmpty(val) && "Compromised Account".equalsIgnoreCase(val));
